@@ -52,8 +52,6 @@
     </project>
 
 # GreengrassIPC.java file to publish messages to 'sample/ipc/client/pub/topic' and subscribe to 'sample/ipc/client/sub/topic' IoT Core Topics
-
-
     package ipc;
 
     import java.nio.charset.StandardCharsets;
