@@ -209,7 +209,7 @@
       DefaultConfiguration:
         accessControl:
           aws.greengrass.ipc.mqttproxy:
-            com.example.IoTCorePublisherCpp:mqttproxy:1:
+            IPC.Client.PubSub:mqttproxy:1:
               policyDescription: Allows access to publish to all topics.
               operations:
                 - aws.greengrass#PublishToIoTCore
@@ -219,7 +219,7 @@
                 - "sample/ipc/client/sub/topic"
     Manifests:
       - Platform:
-        os: linux
+            os: linux
         Lifecycle:
           Run: |-
             java -jar {artifacts:path}/IPC_Client-1.0.0-jar-with-dependencies.jar
