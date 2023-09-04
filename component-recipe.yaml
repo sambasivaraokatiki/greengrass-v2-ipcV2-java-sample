@@ -3,7 +3,7 @@ RecipeFormatVersion: '2020-01-25'
 ComponentName: IPC.Client.PubSub
 ComponentVersion: '1.0.0'
 ComponentDescription: A component that publishes messages and subscribet to IoT Topics using IPC client
-ComponentPublisher: samba723
+ComponentPublisher: sambasivaraokatiki
 ComponentConfiguration:
   DefaultConfiguration:
     accessControl:
