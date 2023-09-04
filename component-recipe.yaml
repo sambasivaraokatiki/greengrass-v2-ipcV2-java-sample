@@ -8,7 +8,7 @@ ComponentConfiguration:
   DefaultConfiguration:
     accessControl:
       aws.greengrass.ipc.mqttproxy:
-        com.example.IoTCorePublisherCpp:mqttproxy:1:
+        IPC.Client.PubSub:mqttproxy:1:
           policyDescription: Allows access to publish and subscribe access
           operations:
             - aws.greengrass#PublishToIoTCore
